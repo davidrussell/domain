@@ -1,0 +1,62 @@
+.grid-1 {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+body {
+	font: 100 12px/1.75 Helvetica, Arial, sans-serif;
+	padding: 100px 0;
+	background: #eee;
+	color: #333;
+}
+
+h1 {
+	font-weight: 100;
+	line-height: 1;
+}
+
+a {color: #216074;}
+
+#content {
+	background: #fafafa;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+	#video .align {width: 720px;}
+
+	#video h1 {
+		width: 60%;
+		float: left;
+	}
+
+	#video h3 {
+		width: 40%;
+		float: right;
+		text-align: right;
+	}
+
+#home p {
+	text-align: left;
+	font-size: 18px;
+}
+
+#footer {
+	text-align: center;
+}
+
+p.notice {
+	background: #ffff99;
+	margin: 0 -20px;
+	padding: 10px 20px;
+	color: #333;
+}
+
+@media only screen and (max-width: 480px) {
+		body {
+			padding: 20px 0;
+		}
+		#content {
+			margin: 0 20px;
+		}
+}
